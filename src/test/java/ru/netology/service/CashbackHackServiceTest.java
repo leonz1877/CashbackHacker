@@ -15,7 +15,7 @@ public class CashbackHackServiceTest {
     @Test
     public void amount900() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-        int amount = 900;
+        amount = 900;
 
         int actual = cashbackHackService.remain(amount);
         int expected = 100;
@@ -26,7 +26,7 @@ public class CashbackHackServiceTest {
     @Test
     public void amount999() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-        int amount = 999;
+        amount = 999;
 
         int actual = cashbackHackService.remain(amount);
         int expected = 1;
@@ -37,7 +37,7 @@ public class CashbackHackServiceTest {
     @Test
     public void amount1000() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-        int amount = 1000;
+        amount = 1000;
 
         int actual = cashbackHackService.remain(amount);
         int expected = 0;
@@ -48,7 +48,7 @@ public class CashbackHackServiceTest {
     @Test
     public void amount1001() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-        int amount = 1001;
+        amount = 1001;
 
         int actual = cashbackHackService.remain(amount);
         int expected = 999;
@@ -59,7 +59,7 @@ public class CashbackHackServiceTest {
     @Test
     public void amount1100() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-        int amount = 1100;
+        amount = 1100;
 
         int actual = cashbackHackService.remain(amount);
         int expected = 900;
